@@ -1,3 +1,4 @@
+library(here)
 library(forecast)
 library(ggplot2)
 library(stringr)
@@ -5,8 +6,9 @@ library(data.table)
 
 #wd = 'C:/Users/Nicholas/Desktop/data_macivor_csv_recovered/data_macivor_csv_recovered/'
 #wd = 'C:/Users/joeng/Documents/University of Toronto/Project/KSR/RData/data_macivor_csv_recovered/john-english-KSR_Microcliate_2022'
-setwd(wd)
+#setwd(wd)
 
+here::i_am("")
 
 path_input = paste0(wd,grep('raw_CS', dir(),value=T))
 
