@@ -8,7 +8,7 @@ library(data.table)
 #wd = 'C:/Users/joeng/Documents/University of Toronto/Project/KSR/RData/data_macivor_csv_recovered/john-english-KSR_Microcliate_2022'
 #setwd(wd)
 
-here::i_am("")
+here::i_am("Data/RawSensorData")
 
 path_input = paste0(wd,grep('raw_CS', dir(),value=T))
 
